@@ -1,0 +1,14 @@
+{
+  "name": "html-css-proyect",
+  "version": "1.0.1",
+  "description": "Proyecto integrador DH",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 12px;
+}
+
+div.top-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+header {
+    background-color: #EAC926;
+    width: 100vw;
+}
+
+header div.logo {
+    width: 50%;
+    padding: 10px;
+}
+
+
+header nav {
+    font-size: 12px;
+    display: none;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+header .form .input {
+    width: 90%;
+    padding: 2px;
+    height: 25px;
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    color: #666;
+    border-radius: 5px;
+
+}
+
+header .form .submit {
+    text-align: center;
+    line-height: 1.5;
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+    border: none;
+    color: #666;
+    position: absolute;
+    right: 17px;
+}
+
+header div.top-header p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.burger-menu {
+    text-align: center;
+}
+
+div.burger-menu i {
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+.price {
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount{
+    width: 70%;
+}
+
+.discount,
+.description {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h3,
+.description {
+    color: #666;
+}
+
+.description {
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img {
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article {
+    background-color: #fff;
+    margin: 10px 0px;
+}
+
+main section article img {
+    width: 100%;
+}
+
+main section article i,
+.discount {
+    color: #39b54a;
+}
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3 {
+    margin: 20px 0px;
+}
+
+article div.main-article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+
+}
+
+@media (min-width: 361px) {
+    main section article .description {
+        display: block;
+    }
+
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 45%;
+    }
+
+    .produdcts {
+        justify-content: space-between;
+    }
+
+    header div.top-header{
+        justify-content: space-between;
+        padding: 2%;
+    }
+
+    div.burger-menu {
+        display: none;
+    }
+
+    header nav {
+        font-size: 12px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header div.logo {
+        width: 33%;
+        padding: 10px;
+    
+    }
+    .form{ 
+        width: 33%;
+    }
+    
+    header div.top-header p {
+        width: 33%;
+    
+    }
+
+    nav ul{
+        display: flex;
+        margin: 0 5px 0 0;
+    }
+
+    nav ul li{
+        margin: 0 5px;
+    }
+
+    header .form .submit {
+        right: 0;
+    }
+  
+    
+}
+
+@media (min-width: 769px) {
+    main section article{
+        width: 24%;
+    }    
+    
+    .price {
+        font-size: 18px;
+        width: 30%;
+        margin-right: 20px;
+    }
+    
+    .discount{
+        width: 50%;
+    }
+    
+    nav ul li{
+        margin: 0 10px;
+    }
+
+    nav ul{
+        margin: 0 20px;
+    }
+
+    
+    
+    
+}
