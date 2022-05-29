@@ -187,6 +187,35 @@ article div.main-article {
 
 }
 
+footer {
+    text-align: center;
+    margin: 60px 25px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+footer p {
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: #666;
+}
+
+footer a i {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #1259c3;
+    box-sizing: content-box;
+
+}
+
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
 @media (min-width: 361px) {
     main section article .description {
         display: block;

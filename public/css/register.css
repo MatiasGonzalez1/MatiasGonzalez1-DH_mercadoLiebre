@@ -1,0 +1,126 @@
+.form-register{
+width:90%;
+margin: auto;
+background-color: #f8f5f5;
+margin-top: 40px;
+padding: 20px;
+border-radius: 5px;
+}
+.form-register h2 {
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.form-register .group{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+
+.form-register .group input{
+    width: 90%;
+    border: none;
+    height: 30px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #1259c39d;
+    color: #000;
+    border-radius: 2px;
+}
+
+.form-register 
+.label.radio, .form-register 
+.label.category, .form-register .label.nacimiento{
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.form-register .group input:focus{
+    outline: none;
+    border-bottom: 3px solid #1259c39d;
+}
+
+.form-register .group input:hover{
+background-color: rgb(238, 238, 238);
+}
+
+.form-register .group input[type="date"]{
+    width: 50%;
+}
+
+.radio1 , .radio2{
+    width: 38%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-register .group p{
+    font-size: 15px;
+}
+
+.form-register .group p.radio{
+    line-height: 2;
+    margin-left: 10px;
+}
+
+.form-register .group .cat-check{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;    
+    width: 100%;
+
+}
+
+.form-register .group .cat-check input,
+.form-register .group .cat-check p{
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+
+.form-register .group input[type="radio"]{
+    width: 23%;
+}
+
+.form-register .group input[type="file"]{
+    width: 100%;
+    background-color: #f8f5f5;
+    border: none;
+    text-align: center;
+}
+
+.form-register .group .file{
+    margin-bottom:10px;
+}
+
+.form-register .button{
+    padding-top: 5px;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    margin: auto;
+}
+
+.form-register .button button{
+    width: 30%;
+    height: 35px;
+    border-radius:5px;
+    background-color: #034ec0;
+    border: none;
+    color: #f8f5f5;
+    font-weight: bold;
+}
+
+.form-register .button button:hover{
+    background-color: #0044AA;
+
+}
