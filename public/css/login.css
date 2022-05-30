@@ -64,5 +64,24 @@
 }
 
 .form-login .button button:hover {
-    background-color: #0044AA;
+    background-color: #0022AA;
+}
+
+@media (min-width:361px){
+    
+    .form-login .group input {
+        width: 50%;
+    }
+    
+    .form-login .button {
+        width: 50%;
+    }
+}
+
+@media (min-width:769px){
+    .form-login{
+        width: 70%;
+        padding: 30px;
+        margin-bottom: 40px;
+    }
 }

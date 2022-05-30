@@ -167,3 +167,11 @@
     width: 50%;
 }
 }
+
+@media (min-width:769px){
+    .form-register{
+        width: 70%;
+        padding: 30px;
+        margin-bottom: 40px;
+    }
+}
