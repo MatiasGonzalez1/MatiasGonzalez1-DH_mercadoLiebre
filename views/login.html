@@ -8,6 +8,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/login.css">
+
     </head>
     <body>
         <header>
@@ -40,16 +42,15 @@
             </div>
         </header>
         <main>
-            <form action="/" method="get" class="form-register">
-               
-                <div>
-                    <label for="" name="user">Usuario:</label>
+            <form action="/" method="get" class="form-login">
+                <h2>¡Bienvenid@ de nuevo!</h2>
+                <div class="group">
                     <input type="text" name="user" placeholder="Ingrese su nombre de usuario" required>
                 </div>
-                    <label name="password">Contraseña:</label>
-                    <input type="password" name="password" required>
+                <div class="group">
+                    <input type="password" name="password" placeholder="Ingrese su contraseña" required>
                 </div>
-                <a href="/"><button type="submit" action="">Enviar</button></a>
+               <div class="button"><button type="submit" action="">Enviar</button></div> 
             </form>
         </main>
         <footer>

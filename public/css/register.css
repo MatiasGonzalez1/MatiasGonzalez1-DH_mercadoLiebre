@@ -1,11 +1,12 @@
-.form-register{
-width:90%;
-margin: auto;
-background-color: #f8f5f5;
-margin-top: 40px;
-padding: 20px;
-border-radius: 5px;
+.form-register {
+    width: 90%;
+    margin: auto;
+    background-color: #f8f5f5;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
 }
+
 .form-register h2 {
     text-align: center;
     border-bottom: 1px solid #ebebeb;
@@ -14,7 +15,7 @@ border-radius: 5px;
     font-size: 18px;
 }
 
-.form-register .group{
+.form-register .group {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
@@ -24,10 +25,10 @@ border-radius: 5px;
 }
 
 
-.form-register .group input{
+.form-register .group input {
     width: 90%;
     border: none;
-    height: 30px;
+    height: 40px;
     text-align: center;
     background-color: #fff;
     border-bottom: 1px solid #1259c39d;
@@ -35,92 +36,134 @@ border-radius: 5px;
     border-radius: 2px;
 }
 
-.form-register 
-.label.radio, .form-register 
-.label.category, .form-register .label.nacimiento{
+.form-register .label.radio,
+.form-register .label.category,
+.form-register .label.nacimiento {
     padding-bottom: 20px;
     text-align: center;
     width: 100%;
 }
 
-.form-register .group input:focus{
+.form-register .group input:focus {
     outline: none;
     border-bottom: 3px solid #1259c39d;
 }
 
-.form-register .group input:hover{
-background-color: rgb(238, 238, 238);
+.form-register .group input:hover {
+    background-color: rgb(238, 238, 238);
 }
 
-.form-register .group input[type="date"]{
+.form-register .group input[type="date"] {
     width: 50%;
 }
 
-.radio1 , .radio2{
+.radio1,
+.radio2 {
     width: 38%;
     display: flex;
     justify-content: center;
 }
 
-.form-register .group p{
+.form-register .group p {
     font-size: 15px;
 }
 
-.form-register .group p.radio{
+.form-register .group p.radio {
     line-height: 2;
     margin-left: 10px;
 }
 
-.form-register .group .cat-check{
+.form-register .group .cat-check {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
-    align-items: center;    
+    justify-content: center;
+    align-items: center;
     width: 100%;
-
 }
 
 .form-register .group .cat-check input,
-.form-register .group .cat-check p{
+.form-register .group .cat-check p {
     width: 45%;
     margin-bottom: 10px;
 }
 
+.form-register .group .cat-check input{
+    height: 25px;
+}
 
-.form-register .group input[type="radio"]{
+.form-register .group input[type="radio"] {
     width: 23%;
 }
 
-.form-register .group input[type="file"]{
+.form-register .group input[type="file"] {
     width: 100%;
     background-color: #f8f5f5;
     border: none;
     text-align: center;
 }
 
-.form-register .group .file{
-    margin-bottom:10px;
+.form-register .group .file {
+    margin-bottom: 10px;
 }
 
-.form-register .button{
+.form-register .button {
     padding-top: 5px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 100%;
     margin: auto;
 }
 
-.form-register .button button{
+.form-register .button button {
     width: 30%;
     height: 35px;
-    border-radius:5px;
+    border-radius: 5px;
     background-color: #034ec0;
     border: none;
     color: #f8f5f5;
     font-weight: bold;
 }
 
-.form-register .button button:hover{
+.form-register .button button:hover {
     background-color: #0044AA;
+}
 
+@media (min-width: 361px){
+    .form-register .group input {
+        width: 50%;
+    }
+ 
+    .radio1,
+    .radio2 {
+    width: 10%;
+}
+
+.form-register .group .cat-check {
+    width: 20%;
+}
+
+.form-register .group .cat-check input,
+.form-register .group .cat-check p {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.form-register .button {
+    width: 50%;
+}
+
+.group.file{
+    display: flex;
+}
+
+.form-register .group .file {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    width: 45%;
+    text-align: end;
+}
+
+.form-register .group input[type="file"] {
+    width: 50%;
+}
 }
