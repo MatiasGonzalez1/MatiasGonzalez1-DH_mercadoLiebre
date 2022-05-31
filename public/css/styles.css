@@ -80,6 +80,7 @@ header .form .submit {
     color: #666;
     position: absolute;
     right: 17px;
+    cursor: pointer;
 }
 
 header div.top-header p {
@@ -125,7 +126,7 @@ div.burger-menu i {
 }
 
 h3,
-.description {
+.description{
     color: #666;
 }
 
@@ -145,7 +146,7 @@ main {
 main section article {
     background-color: #fff;
     margin: 10px 0px;
-    transition: all 0.8s;
+    transition: all 450ms;
 }
 
 main section article:hover {
@@ -178,7 +179,7 @@ main section article i {
     position: absolute;
     right: 20px;
     top: -15px;
-    transition: all 0.4s;
+    transition: all 0.8s;
 }
 
 main section h3 {
@@ -231,6 +232,10 @@ footer a i:hover{
 }
 
 @media (min-width: 361px) {
+    header .form .submit {
+        right: 14px;
+    }
+    
     main section article .description {
         display: none;
     }
@@ -286,18 +291,18 @@ footer a i:hover{
     nav ul li{
         margin: 0 5px;
     }
-
-    header .form .submit {
-        right: 0;
-    }
-  
     
 }
 
 @media (min-width: 769px) {
     main section article{
         width: 24%;
-    }    
+    }   
+
+    header .form .submit {
+        right: 55px;
+    }
+    
     
     .price {
         font-size: 18px;
