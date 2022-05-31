@@ -1,5 +1,5 @@
 # MercadoLiebre 🐇 
-Proyecto clon de [MELI](https://www.mercadolibre.com.ar/) para fines educativos 😉😉
+Proyecto clon de Home page, login y register de [MELI](https://www.mercadolibre.com.ar/) para fines educativos 😉😉
 
 ## Tecnologías:
 
